@@ -13,7 +13,7 @@ namespace PassManager.App.Views
         {
             IPasswordGenerator passwordGenerator = new PasswordGenerator();
             var password = passwordGenerator.Generate(new PasswordConfiguration());
-            MessageBox.Show($"The generates password is: {password}");
+            MessageBox.Show($"The generated password is: {password}");
         }
     }
 }
