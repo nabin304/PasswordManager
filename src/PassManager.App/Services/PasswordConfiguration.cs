@@ -35,8 +35,15 @@
         /// </summary>
         /// <remarks>Default is true.</remarks>
         public bool IncludeSpecialChar { get; set; } = true;
+        public bool IncludeMinus { get; set; }
+        public bool IncludeUnderscore { get; set; }
+        public bool IncludeSpace { get; set; }
+        public bool IncludeSpecialCharacter { get; set;}
+        public bool IncludeBrackets { get; set; }
+       
 
 
-        //todo do yourself, add more config options (like Minus, Underline, space, brackets)
+
+        
     }
 }
