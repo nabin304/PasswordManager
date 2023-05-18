@@ -51,6 +51,12 @@ namespace PassManager.App.Services
 
             return builder.ToString();
         }
+
+        /// <summary>
+        /// todo document me?
+        /// </summary>
+        /// <param name="passwordConfig"></param>
+        /// <returns></returns>
         private static string GetAllowedCharSet(PasswordConfiguration passwordConfig)
         {
             var allowedCharSet = new StringBuilder();
@@ -98,6 +104,7 @@ namespace PassManager.App.Services
             return allowedCharSet.ToString();
         }
 
+        // document me ?
         private static string DefaultPasswordCharSet()
         {
             return string.Join("", LowerCaseAlphabets, UpperCaseAlphabets, Digits, SpecialChars);
