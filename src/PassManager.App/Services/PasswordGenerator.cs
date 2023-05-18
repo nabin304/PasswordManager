@@ -37,7 +37,7 @@ namespace PassManager.App.Services
             if (allowedCharSet.Length == 0)
             {
                 allowedCharSet = DefaultPasswordCharSet();
-                for (var i = 0; i < passwordConfig.Length; i++)
+                for (var i = 0; i < DefaultPasswordLength; i++)
                 {
                     builder.Append(allowedCharSet[random.Next(allowedCharSet.Length)]);
                 }
