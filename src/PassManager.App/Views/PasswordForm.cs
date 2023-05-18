@@ -11,7 +11,7 @@ namespace PassManager.App.Views
 
         private void OnButtonGeneratePassword_Click(object sender, EventArgs e)
         {
-            IPasswordGenerator passwordGenerator = new PasswordGenerator();
+            var passwordGenerator = new PasswordGenerator();
             var passwordCon = new PasswordConfiguration
             {
                 IncludeUpperCaseLetter = checkBox1.Checked,
@@ -26,56 +26,6 @@ namespace PassManager.App.Views
             };
             var password = passwordGenerator.Generate(passwordCon);
             MessageBox.Show($"The generated password is: {password}");
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox5_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox6_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
+        }      
     }
 }

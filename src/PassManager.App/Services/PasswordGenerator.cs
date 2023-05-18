@@ -3,8 +3,10 @@ using System.Text;
 
 namespace PassManager.App.Services
 {
-    /// <inheritdoc />
-    public class PasswordGenerator : IPasswordGenerator
+    /// <summary>
+    ///  A generator service to generate a password.
+    /// </summary>
+    public class PasswordGenerator
     {
         private const string Digits = "0123456789";
         private const string LowerCaseAlphabets = "abcdefghijklmnopqrstuvwxyz";
@@ -17,8 +19,14 @@ namespace PassManager.App.Services
         private const int DefaultPasswordLength = 10;
 
 
-
-        /// <inheritdoc cref="IPasswordGenerator.Generate"/>
+        /// <summary>
+        /// Creates a password based on the designated password preferences <paramref name="passwordConfig"/>.
+        /// </summary>
+        /// <param name="passwordConfig">The password passwordConfig/preferences</param>
+        /// <remarks>
+        /// The generated password will consist of 10 characters, comprising of uppercase and lowercase letters, digits, and special characters as the default.
+        /// </remarks>
+        /// <returns>A password</returns>
         public string Generate(PasswordConfiguration passwordConfig)
         {
             var builder = new StringBuilder(passwordConfig.Length);

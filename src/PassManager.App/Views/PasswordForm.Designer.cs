@@ -77,8 +77,7 @@
             checkBox1.Size = new Size(122, 27);
             checkBox1.TabIndex = 2;
             checkBox1.Text = "Upper Case";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            checkBox1.UseVisualStyleBackColor = true;            
             // 
             // label2
             // 
@@ -88,8 +87,7 @@
             label2.Name = "label2";
             label2.Size = new Size(64, 23);
             label2.TabIndex = 4;
-            label2.Text = "Length";
-            label2.Click += label2_Click;
+            label2.Text = "Length";           
             // 
             // checkBox2
             // 
@@ -100,8 +98,7 @@
             checkBox2.Size = new Size(123, 27);
             checkBox2.TabIndex = 5;
             checkBox2.Text = "Lower Case";
-            checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            checkBox2.UseVisualStyleBackColor = true;            
             // 
             // checkBox3
             // 
@@ -113,7 +110,7 @@
             checkBox3.TabIndex = 6;
             checkBox3.Text = "Digit";
             checkBox3.UseVisualStyleBackColor = true;
-            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            
             // 
             // checkBox4
             // 
@@ -124,8 +121,7 @@
             checkBox4.Size = new Size(98, 27);
             checkBox4.TabIndex = 7;
             checkBox4.Text = "Minus(-)";
-            checkBox4.UseVisualStyleBackColor = true;
-            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            checkBox4.UseVisualStyleBackColor = true;           
             // 
             // checkBox5
             // 
@@ -136,8 +132,7 @@
             checkBox5.Size = new Size(140, 27);
             checkBox5.TabIndex = 8;
             checkBox5.Text = "Underscore(_)";
-            checkBox5.UseVisualStyleBackColor = true;
-            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            checkBox5.UseVisualStyleBackColor = true;            
             // 
             // checkBox6
             // 
@@ -148,8 +143,7 @@
             checkBox6.Size = new Size(78, 27);
             checkBox6.TabIndex = 9;
             checkBox6.Text = "Space";
-            checkBox6.UseVisualStyleBackColor = true;
-            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
+            checkBox6.UseVisualStyleBackColor = true;           
             // 
             // checkBox7
             // 
@@ -160,8 +154,7 @@
             checkBox7.Size = new Size(171, 27);
             checkBox7.TabIndex = 10;
             checkBox7.Text = "Special Character";
-            checkBox7.UseVisualStyleBackColor = true;
-            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
+            checkBox7.UseVisualStyleBackColor = true;           
             // 
             // checkBox8
             // 
@@ -172,16 +165,14 @@
             checkBox8.Size = new Size(100, 27);
             checkBox8.TabIndex = 11;
             checkBox8.Text = "Brackets";
-            checkBox8.UseVisualStyleBackColor = true;
-            checkBox8.CheckedChanged += checkBox8_CheckedChanged;
+            checkBox8.UseVisualStyleBackColor = true;          
             // 
             // numericUpDown1
             // 
             numericUpDown1.Location = new Point(173, 65);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(47, 27);
-            numericUpDown1.TabIndex = 12;
-            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            numericUpDown1.TabIndex = 12;           
             // 
             // PasswordForm
             // 
