@@ -71,7 +71,7 @@ namespace PassManager.App.Services
                 allowedCharSet.Append(Digits);
             }
 
-            if (passwordConfig.IncludeSpecialChar)
+            if (passwordConfig.IncludeSpecialCharacter)
             {
                 allowedCharSet.Append(SpecialChars);
             }
@@ -89,12 +89,7 @@ namespace PassManager.App.Services
             if (passwordConfig.IncludeSpace)
             {
                 allowedCharSet.Append(Space);
-            }
-
-            if (passwordConfig.IncludeSpecialCharacter)
-            {
-                allowedCharSet.Append(SpecialChars);
-            }
+            }           
 
             if (passwordConfig.IncludeBrackets)
             {

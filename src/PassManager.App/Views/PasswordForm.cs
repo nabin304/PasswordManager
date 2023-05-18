@@ -7,6 +7,9 @@ namespace PassManager.App.Views
         public PasswordForm()
         {
             InitializeComponent();
+            //checkBox1.Checked = true;
+            //checkBox2.Checked = true;
+            //numericUpDown1.Value = 10;
         }
 
         private void OnButtonGeneratePassword_Click(object sender, EventArgs e)

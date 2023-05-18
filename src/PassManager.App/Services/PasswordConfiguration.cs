@@ -34,16 +34,23 @@
         /// Indicates whether to include special characters.
         /// </summary>
         /// <remarks>Default is true.</remarks>
-        public bool IncludeSpecialChar { get; set; } = true;
+        public bool IncludeSpecialCharacter { get; set; } = true;
+
+        /// <summary>
+        /// Indicates whether to include a minus character.
+        /// </summary>       
         public bool IncludeMinus { get; set; }
+
+        /// <summary>
+        /// Indicates whether to include an underscore character.
+        /// </summary>
         public bool IncludeUnderscore { get; set; }
+
+        //todo comment me
         public bool IncludeSpace { get; set; }
-        public bool IncludeSpecialCharacter { get; set;}
-        public bool IncludeBrackets { get; set; }
-       
 
+        //todo comment me
+        public bool IncludeBrackets { get; set; }  
 
-
-        
     }
 }
