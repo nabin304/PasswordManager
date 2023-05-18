@@ -33,7 +33,7 @@ namespace PassManager.App.Services
 
 
             var allowedCharSet = GetAllowedCharSet(passwordConfig);
-            if (allowedCharSet.Length == 0)
+            if (passwordConfig.Length == 0)
             {
                 allowedCharSet = DefaultPasswordCharSet();
                 for (var i = 0; i < DefaultPasswordLength; i++)
